@@ -9,21 +9,21 @@
   const staticman = Object.create(null);
   const translations = {
     success: {
-      title: 'Review submitted',
-      text: 'Thanks for your review! It will be shown on the site once it has been approved.',
-      close: 'Close'
+      title: '',
+      text: '',
+      close: ''
     },
     error: {
-      title: 'Error',
-      text: 'Sorry, there was an error with the submission!',
-      close: 'Close'
+      title: '',
+      text: '',
+      close: ''
     },
     discard: {
-      title: 'Discard Comment',
-      button: 'discard'
+      title: '',
+      button: ''
     },
-    submit: 'Submit',
-    submitted: 'Submitted'
+    submit: '',
+    submitted: ''
   };
 
   function isObj(obj) {
