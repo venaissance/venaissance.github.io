@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang='zh'>
+  <head>
+  <title>用 hugo搭建博客 | Venaissance&#39;s Blog</title>
+  <meta charset='utf-8'>
+  <meta name="generator" content="Hugo 0.58.0" />
+  <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+  <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
+  <meta name = 'SKYPE_TOOLBAR' content = 'SKYPE_TOOLBAR_PARSER_COMPATIBLE' />
+  <meta name = 'keywords' content = 'Venaissance&#39;s Blog'>
+<meta property = 'og:locale' content = 'en_US' />
+<meta property = 'og:type' content = 'article' />
+<meta property = 'og:title' content = '用Hugo搭建博客' />
+<meta property = 'og:description' content = '第一步：安装hugo 1.执行brew install hugo
+2.安装完之后，敲hugo version验证，正确显示版本号就是安装成功了
+第二步：创建博客站点 1.到一个相对来讲不那么拥挤的目录中
+2.执行命令hugo new site 你的github用户 …'>
+<meta property = 'og:url' content = 'https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/' />
+<meta property = 'og:image' content = 'https://venaissance.github.io/images/stuck.jpg'/>
+<link rel='apple-touch-icon' sizes='180x180' href='https://venaissance.github.io/images/icons/apple-touch-icon.png'>
+<link rel='icon' type='image/png' sizes='32x32' href='https://venaissance.github.io/images/icons/favicon-32x32.png'>
+<link rel='icon' type='image/png' sizes='16x16' href='https://venaissance.github.io/images/icons/favicon-16x16.png'>
+<link rel='manifest' href='https://venaissance.github.io/images/icons/site.webmanifest'>
+
+  <link rel='canonical' href='https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/'>
+  <link rel = 'stylesheet' href = 'https://venaissance.github.io/css/main.eb641f053db33c9239d5ec3b60e91539fd656c6981aa4a91c8571e98667750e1872c94bfb1b950c3c29e6e0aee77338504445a14545058ce09e991d53c8d0aa5.css' integrity = 'sha512-62QfBT2zPJI51ew7YOkVOf1lbGmBqkqRyFcemGZ3UOGHLJS/sblQw8KebgrudzOFBERaFFRQWM4J6ZHVPI0KpQ=='>
+</head>
+
+  <body>
+    <div class = 'nav-drop'>
+  <div class = 'nav-body'>
+    
+      <a href = 'https://venaissance.github.io/about/' class = 'nav_item'>About</a>
+    
+      <a href = 'https://venaissance.github.io/' class = 'nav_item'>Blog</a>
+    
+      <a href = 'https://venaissance.github.io/categories/development/' class = 'nav_item'>Category A</a>
+    
+      <a href = 'https://venaissance.github.io/categories/golang/' class = 'nav_item'>Category B</a>
+    
+      <a href = 'https://venaissance.github.io/tags/go/' class = 'nav_item'>Tag B</a>
+    
+    <div class = 'nav-close'></div>
+  </div>
+</div>
+<header class = 'nav' >
+  <nav class = 'nav-menu'>
+    <a href='https://venaissance.github.io/' class = 'nav-brand nav_item'>Venaissance&#39;s Blog</a>
+    <div class = 'nav_bar-wrap'>
+      <div class = 'nav_bar'></div>
+    </div>
+  </nav>
+</header>
+
+
+    <main>
+      
+
+
+  
+
+
+
+<section class = 'post_header' style = 'background-image:url(https://venaissance.github.io/images/stuck.jpg);'>
+<!-- inline style to be moved into CSS later -->
+  <h1 class='post_title'>用Hugo搭建博客</h1>
+</section>
+<div class = 'post'>
+  <article class='post_content'>
+    
+
+<h2 id="第一步-安装hugo">第一步：安装hugo</h2>
+
+<p>1.执行<code>brew install hugo</code></p>
+
+<p>2.安装完之后，敲<code>hugo version</code>验证，正确显示版本号就是安装成功了</p>
+
+<h2 id="第二步-创建博客站点">第二步：创建博客站点</h2>
+
+<p>1.到一个相对来讲不那么拥挤的目录中</p>
+
+<p>2.执行命令<code>hugo new site 你的github用户名.github.io-creator</code></p>
+
+<h2 id="第三步-安装一个你喜爱的主题">第三步：安装一个你喜爱的主题</h2>
+
+<h4 id="按以下-四步执行">按以下四步执行：</h4>
+
+<p>1.<code>cd</code> 刚才的目录</p>
+
+<p>2.<code>git init</code> 创建本地仓库</p>
+
+<p>3.<code>git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke</code> 下载主题</p>
+
+<p>4.<code>echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml</code>设置主题</p>
+
+<p>更多主题点击<a href="https://themes.gohugo.io/">这里</a></p>
+
+<h2 id="第四步-写文章">第四步：写文章</h2>
+
+<p>运行<code>hugo new post/我的第一篇文章.md</code>，注意文章最上方有这几行，它们是可以自定义的，不过一定要<strong>注意</strong>一点：想要部署文章上线，要把<code>draft: true</code>的<code>true</code>改成<code>false</code></p>
+
+<pre><code>---
+title: &quot;My First Post&quot;
+date: 2019-03-26T08:47:11+01:00
+draft: true
+---
+</code></pre>
+
+<h2 id="第五步-启动hugo服务">第五步：启动Hugo服务</h2>
+
+<p>只需要执行一行命令<code>hugo server -D</code>，就会在localhost的1313端口生成博客预览，访问 <a href="http://localhost:1313/">http://localhost:1313/</a> 就可以看到你的博客的样子了！</p>
+
+<h2 id="第六步-静态网页-上传github">第六步：静态网页 &amp;&amp; 上传Github</h2>
+
+<p>预览感觉不错吧？可是想把它上传到网上，怎么办？</p>
+
+<p>非常简单，一个命令<code>hugo</code>就可以生成博客的静态网页，在<code>/public</code>目录下，只需要把这个目录push到GitHub就可以了！</p>
+
+    <div class = 'post_extra'>
+      <div class = 'copy'></div>
+    </div>
+    
+
+
+
+
+  </article>
+  
+  <aside>
+    <h3></h3>
+<ul class='posts aside'>
+  
+  
+  
+    
+      
+
+  
+
+
+
+<li class = 'post_item'>
+  <a class = 'post_card' href='/post/hugoisforlovers/' title = 'Getting Started with Hugo' style = 'background-image: url(https://venaissance.github.io/images/stuck.jpg);'>
+  </a>
+  <div class = 'excerpt'>
+    <div class = 'excerpt_meta'>
+    
+      
+      <a href = 'https://venaissance.github.io/tags/go' class = 'post_tag'>
+        go
+      </a>
+      
+      <div class = 'post_copy copy'></div>
+    </div>
+    <h3 class = 'post_link'>
+      <a href='/post/hugoisforlovers/'>Getting Started with Hugo</a>
+    </h3>
+    <p class = 'pale'>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS …</p>
+  </div>
+</li>
+
+    
+  
+</ul>
+
+  </aside>
+</div>
+<script src = 'https://venaissance.github.io/js/autosize.min.js'></script>
+
+<script src = 'https://venaissance.github.io/js/timeago.js'></script>
+
+    </main>
+    <footer class = 'footer'>
+  <div class = 'footer_inner wrap pale'>
+    <p>&copy; <span class = 'year'></span> Venaissance&#39;s Blog</p>
+    <p></p>
+  </div>
+</footer>
+
+<script src = 'https://venaissance.github.io/js/index.js'></script>
+
+  </body>
+</html>
