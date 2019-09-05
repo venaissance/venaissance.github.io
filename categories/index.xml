@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Venaissance&#39;s Blog</title>
-    <link>https://venaissance.github.io/categories/</link>
+    <link>http://venaissance.me/categories/</link>
     <description>Recent content in Categories on Venaissance&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://venaissance.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://venaissance.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>https://venaissance.github.io/categories/development/</link>
+      <link>http://venaissance.me/categories/development/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://venaissance.github.io/categories/development/</guid>
+      <guid>http://venaissance.me/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://venaissance.github.io/categories/golang/</link>
+      <link>http://venaissance.me/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://venaissance.github.io/categories/golang/</guid>
+      <guid>http://venaissance.me/categories/golang/</guid>
       <description></description>
     </item>
     
