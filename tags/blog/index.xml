@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Venaissance&#39;s Blog</title>
-    <link>https://venaissance.github.io/tags/blog/</link>
+    <link>https://venaissance.me/tags/blog/</link>
     <description>Recent content in blog on Venaissance&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 05 Sep 2019 14:26:28 +0800</lastBuildDate>
     
-	<atom:link href="https://venaissance.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://venaissance.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用Hugo搭建博客</title>
-      <link>https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://venaissance.me/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Thu, 05 Sep 2019 14:26:28 +0800</pubDate>
       
-      <guid>https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://venaissance.me/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>第一步：安装hugo 1.执行brew install hugo
 2.安装完之后，敲hugo version验证，正确显示版本号就是安装成功了
 第二步：创建博客站点 1.到一个相对来讲不那么拥挤的目录中
