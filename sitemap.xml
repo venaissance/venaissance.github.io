@@ -1,99 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://venaissance.me/tags/blog/</loc>
+    <loc>https://venaissance.github.io/tags/blog/</loc>
     <lastmod>2019-09-05T14:26:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/tags/hugo/</loc>
+    <loc>https://venaissance.github.io/tags/hugo/</loc>
     <lastmod>2019-09-05T14:26:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/post/</loc>
+    <loc>https://venaissance.github.io/post/</loc>
     <lastmod>2019-09-05T14:26:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/tags/</loc>
+    <loc>https://venaissance.github.io/tags/</loc>
     <lastmod>2019-09-05T14:26:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/</loc>
+    <loc>https://venaissance.github.io/</loc>
     <lastmod>2019-09-05T14:26:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2019-09-05T14:26:28+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/post/creating-a-new-theme/</loc>
+    <loc>https://venaissance.github.io/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/about/</loc>
+    <loc>https://venaissance.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/post/goisforlovers/</loc>
+    <loc>https://venaissance.github.io/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/categories/</loc>
+    <loc>https://venaissance.github.io/categories/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/categories/development/</loc>
+    <loc>https://venaissance.github.io/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/tags/development/</loc>
+    <loc>https://venaissance.github.io/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/post/hugoisforlovers/</loc>
+    <loc>https://venaissance.github.io/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/tags/go/</loc>
+    <loc>https://venaissance.github.io/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/categories/golang/</loc>
+    <loc>https://venaissance.github.io/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/tags/golang/</loc>
+    <loc>https://venaissance.github.io/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/tags/templates/</loc>
+    <loc>https://venaissance.github.io/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/tags/themes/</loc>
+    <loc>https://venaissance.github.io/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://venaissance.me/post/migrate-from-jekyll/</loc>
+    <loc>https://venaissance.github.io/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   

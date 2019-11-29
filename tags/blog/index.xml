@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Venaissance&#39;s Blog</title>
-    <link>https://venaissance.me/tags/blog/</link>
+    <link>https://venaissance.github.io/tags/blog/</link>
     <description>Recent content in blog on Venaissance&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 05 Sep 2019 14:26:28 +0800</lastBuildDate>
     
-	<atom:link href="https://venaissance.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://venaissance.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用Hugo搭建博客</title>
-      <link>https://venaissance.me/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Thu, 05 Sep 2019 14:26:28 +0800</pubDate>
       
-      <guid>https://venaissance.me/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>第一步：安装hugo 1.执行brew install hugo
 2.安装完之后，敲hugo version验证，正确显示版本号就是安装成功了
 第二步：创建博客站点 1.到一个相对来讲不那么拥挤的目录中
@@ -26,7 +26,7 @@
 4.echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml设置主题
 更多主题点击这里
 第四步：写文章 运行hugo new post/我的第一篇文章.md，注意文章最上方有这几行，它们是可以自定义的，不过一定要注意一点：想要部署文章上线，要把draft: true的true改成false
---- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true ---  第五步：启动Hugo服务 只需要执行一行命令hugo server -D，就会在localhost的1313端口生成博客预览，访问 http://localhost:1313/ 就可以看到你的博客的样子了！
+--- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 第五步：启动Hugo服务 只需要执行一行命令hugo server -D，就会在localhost的1313端口生成博客预览，访问 http://localhost:1313/ 就可以看到你的博客的样子了！
 第六步：静态网页 &amp;amp;&amp;amp; 上传Github 预览感觉不错吧？可是想把它上传到网上，怎么办？
 非常简单，一个命令hugo就可以生成博客的静态网页，在/public目录下，只需要把这个目录push到GitHub就可以了！</description>
     </item>

@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Venaissance&#39;s Blog</title>
-    <link>https://venaissance.me/</link>
+    <link>https://venaissance.github.io/</link>
     <description>Recent content on Venaissance&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 05 Sep 2019 14:26:28 +0800</lastBuildDate>
     
-	<atom:link href="https://venaissance.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://venaissance.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用Hugo搭建博客</title>
-      <link>https://venaissance.me/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Thu, 05 Sep 2019 14:26:28 +0800</pubDate>
       
-      <guid>https://venaissance.me/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://venaissance.github.io/post/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>第一步：安装hugo 1.执行brew install hugo
 2.安装完之后，敲hugo version验证，正确显示版本号就是安装成功了
 第二步：创建博客站点 1.到一个相对来讲不那么拥挤的目录中
@@ -26,27 +26,27 @@
 4.echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml设置主题
 更多主题点击这里
 第四步：写文章 运行hugo new post/我的第一篇文章.md，注意文章最上方有这几行，它们是可以自定义的，不过一定要注意一点：想要部署文章上线，要把draft: true的true改成false
---- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true ---  第五步：启动Hugo服务 只需要执行一行命令hugo server -D，就会在localhost的1313端口生成博客预览，访问 http://localhost:1313/ 就可以看到你的博客的样子了！
+--- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 第五步：启动Hugo服务 只需要执行一行命令hugo server -D，就会在localhost的1313端口生成博客预览，访问 http://localhost:1313/ 就可以看到你的博客的样子了！
 第六步：静态网页 &amp;amp;&amp;amp; 上传Github 预览感觉不错吧？可是想把它上传到网上，怎么办？
 非常简单，一个命令hugo就可以生成博客的静态网页，在/public目录下，只需要把这个目录push到GitHub就可以了！</description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://venaissance.me/post/creating-a-new-theme/</link>
+      <link>https://venaissance.github.io/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://venaissance.me/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://venaissance.github.io/post/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&#39;t cover using CSS to style your theme.
+We&#39;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>About Hugo</title>
-      <link>https://venaissance.me/about/</link>
+      <link>https://venaissance.github.io/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://venaissance.me/about/</guid>
+      <guid>https://venaissance.github.io/about/</guid>
       <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
 It makes use of a variety of open source projects including:
  https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
@@ -54,20 +54,20 @@ It makes use of a variety of open source projects including:
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://venaissance.me/post/goisforlovers/</link>
+      <link>https://venaissance.github.io/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://venaissance.me/post/goisforlovers/</guid>
+      <guid>https://venaissance.github.io/post/goisforlovers/</guid>
       <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://venaissance.me/post/hugoisforlovers/</link>
+      <link>https://venaissance.github.io/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://venaissance.me/post/hugoisforlovers/</guid>
+      <guid>https://venaissance.github.io/post/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
@@ -78,13 +78,13 @@ Follow the following steps:
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://venaissance.me/post/migrate-from-jekyll/</link>
+      <link>https://venaissance.github.io/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://venaissance.me/post/migrate-from-jekyll/</guid>
+      <guid>https://venaissance.github.io/post/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&#39;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
   </channel>
